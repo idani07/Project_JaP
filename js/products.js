@@ -1,3 +1,18 @@
+//Función para borrar elementos desde el Js
+/*function deleteElement(id){
+
+    elementToDelete = document.getElementById(id);	
+    
+	if (elementToDelete){
+
+		father = elementToDelete.parentNode;
+        father.removeChild(elementToDelete);
+        
+	}
+};
+
+deleteElement(divalert);*/
+
 var productsArray = [];
 
 function showProductsList(array) {

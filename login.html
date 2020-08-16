@@ -38,14 +38,25 @@
 </head>
 
 <body class="text-center">
-  <div class="container p-5">
+
+  <form action="index.html" class="signin">
+    <img src="img/login.png" alt="login" width="500">
+    <h1>Loguearse</h1>
+    <label for="inputusuario">Usuario</label>
+    <input type="text" id="inputusuario" placeholder="Usuario" required autofocus>
+    <label for="inputpassword">Contraseña</label>
+    <input type="password" id="inputpassword" placeholder="Contraseña" required>
+    <button type="submit">Loguearse</button>
+  </form>
+
+  <!--<div class="container p-5">
     <div class="alert alert-danger" role="alert" style="position: relative; width:auto; top: 0;">
       <h4 class="alert-heading">¡A trabajar! :)</h4>
       <p>Esta sección corresponde a: Entrega 1 (Fecha de entrega: 16/08/2020) -> Punto 3 y 4.</p>
       <hr>
       <p class="mb-0">Para saber qué debes hacer, fijate en la actividad en CREA correspondiente a esta entrega.</p>
     </div>
-  </div>
+  </div>-->
 
   <script src="js/init.js"></script>
   <script src="js/login.js"></script>
